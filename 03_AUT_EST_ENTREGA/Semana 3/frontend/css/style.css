@@ -17,6 +17,10 @@ body {
     overflow-x: hidden;
 }
 
+div.animated img {
+    padding-top: 8px;
+}
+
 header span.animated {
     position: absolute;
     margin: auto;
