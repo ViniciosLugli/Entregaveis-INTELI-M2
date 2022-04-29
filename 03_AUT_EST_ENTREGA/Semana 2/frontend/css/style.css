@@ -30,3 +30,10 @@ header span.animated {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
+.section {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 100;
+}
