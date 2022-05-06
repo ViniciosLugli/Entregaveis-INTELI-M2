@@ -22,5 +22,14 @@ $(document).ready(function () {
 				}
 			}
 		})
+
+		$('.wrap-item').each(function () {
+			if (isScrolledIntoView(this) === true) {
+				this.classList.add('wrap')
+				let item = this.getElementsByTagName('div')[0]
+				item.classList.add('bar')
+				item.classList.add(this.getElementsByTagName('p')[0].innerHTML)
+			}
+		})
 	})
 })

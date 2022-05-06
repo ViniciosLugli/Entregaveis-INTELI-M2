@@ -1,30 +1,4 @@
 <html lang="pt-BR">
-	<!--
-https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg
-
-https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-plain.svg
-
-https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-plain.svg
-https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-plain.svg
-https://raw.githubusercontent.com/devicons/devicon/master/icons/rspec/rspec-original.svg
-
-https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/
-csharp-plain.svg
-
-https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg
-https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-plain.svg
-
-https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg
-
-https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg
-https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg
-https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg
-https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg
-https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg
-
-https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg
--->
-
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -49,11 +23,9 @@ https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.sv
 	<body>
 		<div class="flex flex-column justify-center items-center h-100">
 			<header class="flex flex-column justify-center items-center h-100 w-100">
-				<img
-					id="profile-photo"
-					class="animated fadeInDown ease-out-circ d3 a-1 f2 fw3"
-					src="static/ViniciosLugliProfilePhoto.jpg"
-					alt="Vinicios photo" />
+				<div class="animated fadeInDown ease-out-circ d3 a-1 f2 fw3">
+					<img id="profile-photo" src="static/ViniciosLugliProfilePhoto.jpg" alt="Vinicios photo" />
+				</div>
 				<h1 class="animated fadeInDown ease-out-circ d2 a-1 f2 fw3">
 					<code style="color: var(--green-default); font-size: 52px">`Vinicios Lugli`</code>
 				</h1>
@@ -68,7 +40,18 @@ https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.sv
 
 		<h2 class="section">Skills and Technologies</h2>
 		<div class="scroll-sides flex flex-row justify-between h-100">
-			<div class="animated d-1 a-3 mt-4 p-2 left flex flex-column"></div>
+			<div class="animated d-1 a-3 mt-4 p-2 left flex flex-column">
+				<div class="wrap-item">
+					<p style="visibility: hidden">frontend</p>
+					<p>HTML + CSS + Bootstrap</p>
+					<div style="--frontend-color: #673f98; --frontend-width: 40%"></div>
+				</div>
+				<div class="wrap-item">
+					<p style="visibility: hidden">javascript</p>
+					<p>JavaScript</p>
+					<div style="--javascript-color: #efd81d; --javascript-width: 75%"></div>
+				</div>
+			</div>
 			<div class="animated d-1 a-3 mt-4 p-2 right flex flex-column"></div>
 		</div>
 	</body>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
 :root {
 	--green-default: #a9dc76;
 	--red-default: #ff6188;
@@ -59,7 +61,115 @@ header span.animated {
 	background-color: #333333;
 }
 
+.wrap p {
+	font-family: 'Nunito';
+	font-style: bold;
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	margin: 0 auto;
+	color: #000;
+	transform: translateY(-50%);
+	letter-spacing: 1px;
+}
+
+.wrap {
+	position: relative;
+	width: 600px;
+	height: 30px;
+	margin: 10px auto;
+	padding: 0;
+	background: rgb(200, 200, 200);
+	border-radius: 5px;
+	transition: 0.5s 0.15s ease;
+}
+
+.wrap:hover .bar {
+	box-shadow: 0 0 0 2px rgba(20, 20, 20, 0.9);
+	cursor: pointer;
+}
+
+.wrap:hover {
+	width: 600px;
+	background: rgb(160, 160, 160);
+}
+
+/*.wrap span {
+	font-family: 'Nunito';
+	font-style: bold;
+	display: block;
+	float: right;
+	padding-right: 15px;
+	color: #000;
+	line-height: 30px;
+	animation: span 2s 2.5s forwards;
+	opacity: 0;
+}*/
+
+.bar {
+	height: 30px;
+	border-radius: 5px;
+	transition: 0.25s ease;
+}
+
+.frontend {
+	background: var(--frontend-color);
+	width: 0%;
+	animation: frontend 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.javascript {
+	background: var(--javascript-color);
+	width: 0%;
+	animation: javascript 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
 #profile-photo {
 	border-radius: 50%;
 	width: 264px;
+	animation: pulse 1.8s infinite;
+	animation-delay: 1s;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(148, 123, 175, 0.3);
+	}
+	70% {
+		box-shadow: 0 0 0 40px rgba(148, 123, 175, 0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgba(148, 123, 175, 0);
+	}
+}
+
+@keyframes frontend {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--frontend-width);
+	}
+}
+
+@keyframes javascript {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--javascript-width);
+	}
+}
+
+@keyframes span {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
