@@ -128,6 +128,102 @@ header span.animated {
 	animation-fill-mode: forwards;
 }
 
+.rust {
+	background: var(--rust-color);
+	width: 0%;
+	animation: rust 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.cpp {
+	background: var(--cpp-color);
+	width: 0%;
+	animation: cpp 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.python {
+	background: var(--python-color);
+	width: 0%;
+	animation: python 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.csharp {
+	background: var(--csharp-color);
+	width: 0%;
+	animation: csharp 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.rubyrails {
+	background: var(--rubyrails-color);
+	width: 0%;
+	animation: rubyrails 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.git {
+	background: var(--git-color);
+	width: 0%;
+	animation: git 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.microcontrollers {
+	background: var(--microcontrollers-color);
+	width: 0%;
+	animation: microcontrollers 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.databases {
+	background: var(--databases-color);
+	width: 0%;
+	animation: databases 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.cryptography {
+	background: var(--cryptography-color);
+	width: 0%;
+	animation: cryptography 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.docker {
+	background: var(--docker-color);
+	width: 0%;
+	animation: docker 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.language {
+	background: var(--language-color);
+	width: 0%;
+	animation: language 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.server {
+	background: var(--server-color);
+	width: 0%;
+	animation: server 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
 #profile-photo {
 	border-radius: 50%;
 	width: 264px;
@@ -162,6 +258,114 @@ header span.animated {
 	}
 	to {
 		width: var(--javascript-width);
+	}
+}
+
+@keyframes rust {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--rust-width);
+	}
+}
+
+@keyframes cpp {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--cpp-width);
+	}
+}
+
+@keyframes python {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--python-width);
+	}
+}
+
+@keyframes csharp {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--csharp-width);
+	}
+}
+
+@keyframes rubyrails {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--rubyrails-width);
+	}
+}
+
+@keyframes git {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--git-width);
+	}
+}
+
+@keyframes microcontrollers {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--microcontrollers-width);
+	}
+}
+
+@keyframes databases {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--databases-width);
+	}
+}
+
+@keyframes cryptography {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--cryptography-width);
+	}
+}
+
+@keyframes docker {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--docker-width);
+	}
+}
+
+@keyframes language {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--language-width);
+	}
+}
+
+@keyframes server {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--server-width);
 	}
 }
 
