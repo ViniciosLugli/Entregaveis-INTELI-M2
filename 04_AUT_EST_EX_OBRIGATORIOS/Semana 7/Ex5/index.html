@@ -3,19 +3,20 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Exercício 4</title>
+		<title>Exercício 5</title>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<form>
-			<input id="quantity" type="number" placeholder="Quantidade de pessoas" />
-			<select id="period">
-				<option value="noturno">Noturno</option>
-				<option value="diurno">Diurno</option>
-			</select>
-			<br />
-			<input id="action" type="button" value="Calcular" />
+		<form action="#">
+			<input id="students-quantity" type="number" placeholder="Quantidade de alunos" />
+			<input id="instance-students" type="button" value="Instanciar" />
 		</form>
-		<output id="result" style="font-size: 24"></output>
+		<div id="students-container"></div>
 	</body>
+	<form action="#">
+		<input id="calculate" type="button" value="Calcular" />
+	</form>
+	<output id="general-output"></output>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 	<script src="main.js"></script>
 </html>
